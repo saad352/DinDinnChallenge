@@ -1,9 +1,9 @@
 # DinDinnChallenge Part-2
 
-## OverView
+## Overview
 Aim of the project is to build replica of UI -> https://dribbble.com/shots/6571883-Food-Delivery-App/attachments/6571883-Food-Delivery-App?mode=media
 
-General GUI provided is a little confusing and the implementation is as per understanding of given UI
+General GUI provided is a little confusing and the implementation is as per my understanding of given UI
 
 ## Architechture
 VIPER architecture with little use of MVVM for small resuable views.
@@ -28,7 +28,7 @@ A local JSON file acts as a DataSource for the CollectionView with a specified f
 
 ### Datasource & Gateways
 1. JSON file is used as a data fixture
-2. Data is fetched locally with out use of any Networking library. If the need arise to fetch data from remote API, we will just have to make another implementation of `FoodListGateway`
+2. Data is fetched locally with out use of any Networking library. If the need arise to fetch data from remote API, we will just have to make another implementation of `FoodListGateway` protocol
 
 
 ### AppFlow with ViewController
