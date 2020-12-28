@@ -1,0 +1,6 @@
+framework module Pods_DinDinnChallenge {
+  umbrella header "Pods-DinDinnChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

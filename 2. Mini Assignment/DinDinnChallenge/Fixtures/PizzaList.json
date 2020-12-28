@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Deluxe",
+        "image": "deluxe.jpg",
+        "price": 45,
+        "type": "pizza",
+        "taste": "spicy",
+        "details": "Chicken, ham, pepperoni, tomato, sauce, spicy and mozzarella",
+        "weight": 150,
+        "size": 35
+    },
+    {
+        "name": "Hawaiian",
+        "image": "hawaiian.jpg",
+        "price": 55,
+        "type": "pizza",
+        "taste": "spicy",
+        "details": "Chicken, Mozzarella, Pineapple, Domino's sauce",
+        "weight": 200,
+        "size": 35
+    },
+    {
+        "name": "Pepperoni",
+        "image": "pepperoni.jpg",
+        "price": 55,
+        "type": "pizza",
+        "taste": "spicy",
+        "details": "Mozzarella, Pepperoni, Tomatoes, BBQ sauce",
+        "weight": 190,
+        "size": 40
+    },
+    {
+        "name": "Cheese",
+        "image": "cheese.jpg",
+        "price": 55,
+        "type": "pizza",
+        "taste": "vegan",
+        "details": "Mozzarella, Tomatoes, sauce",
+        "weight": 210,
+        "size": 42
+    },
+    {
+        "name": "Veggie",
+        "image": "veggie.jpg",
+        "price": 58,
+        "type": "pizza",
+        "taste": "vegan",
+        "details": "Mozzarella, Eggplant, Onions, Peppers and mushrooms",
+        "weight": 190,
+        "size": 40
+    },
+    {
+        "name": "Margherita",
+        "image": "margherita.jpg",
+        "price": 51,
+        "type": "pizza",
+        "taste": "vegan",
+        "details": "Basil, Mozzarella, Tomatoes, Peppers",
+        "weight": 160,
+        "size": 38
+    }
+]
+

@@ -1,0 +1,63 @@
+[
+    {
+        "name": "The eggoist",
+        "image": "eggoist.jpg",
+        "price": 45,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "Fila classic, maci spicy salmon, two sushi salmon, two guargana salami",
+        "weight": 450,
+        "size": 18
+    },
+    {
+        "name": "Makizushi",
+        "image": "makizushi.jpg",
+        "price": 44,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "Fresh tuna, cucumber, or pickled daikon",
+        "weight": 490,
+        "size": 4
+    },
+    {
+        "name": "California",
+        "image": "california.jpg",
+        "price": 95,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "California with salmon grill, fila with salmon,fila lollo mosa, lutomaki perch cheese, mali spicy salmon",
+        "weight": 930,
+        "size": 38
+    },
+    {
+        "name": "Temaki",
+        "image": "temaki.jpg",
+        "price": 20,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "Fresh shiso leaf and umeboshi (pickled plum), negitoro, squid with and without natto, and sweetened omelet",
+        "weight": 150,
+        "size": 3
+    },
+    {
+        "name": "Nigiri",
+        "image": "nigiri.jpg",
+        "price": 5,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "Seafood, vegetables, meat, omelet, or tofu, and in addition to fresh seafood, the fish may be pickled in soy sauce or vinegar, or broiled with a blowtorch",
+        "weight": 75,
+        "size": 2
+    },
+    {
+        "name": "Oshizushi",
+        "image": "oshizushi.jpg",
+        "price": 55,
+        "type": "sushi",
+        "taste": "spicy",
+        "details": "Fish like mackerel or gizzard shad, and may also be decoratively layered with edible leaves like bamboo",
+        "weight": 400,
+        "size": 18
+    }
+]
+

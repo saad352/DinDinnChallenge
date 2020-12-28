@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10131CCA259764F300668251 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10131CC9259764F300668251 /* CartPresenter.swift */; };
+		10131CCC2597651800668251 /* CartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10131CCB2597651800668251 /* CartConfigurator.swift */; };
+		10131CCE2597652900668251 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10131CCD2597652900668251 /* Cart.swift */; };
+		10131CD22597683200668251 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10131CD02597683200668251 /* CartCell.swift */; };
+		10131CD32597683200668251 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10131CD12597683200668251 /* CartCell.xib */; };
+		10131CD5259773EB00668251 /* CartCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10131CD4259773EB00668251 /* CartCellViewModel.swift */; };
+		10246EBC25934A0E003B7F57 /* FoodListLocalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EBB25934A0E003B7F57 /* FoodListLocalGateway.swift */; };
+		10246EC0259363D6003B7F57 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EBF259363D6003B7F57 /* FoodListViewController.swift */; };
+		10246EC22593651C003B7F57 /* FoodListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EC12593651C003B7F57 /* FoodListPresenter.swift */; };
+		10246EC425936554003B7F57 /* FoodListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EC325936554003B7F57 /* FoodListConfigurator.swift */; };
+		10246EC625938908003B7F57 /* FoodListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EC525938908003B7F57 /* FoodListRouter.swift */; };
+		10246EC925938A05003B7F57 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246EC825938A05003B7F57 /* FoodCell.swift */; };
+		10246ECE25939142003B7F57 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10246ECD25939142003B7F57 /* NSObject.swift */; };
+		1028063B25945CD300FB7287 /* FoodCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028063A25945CD300FB7287 /* FoodCellViewModel.swift */; };
+		1028063D25946AC000FB7287 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028063C25946AC000FB7287 /* UIView.swift */; };
+		102D63E92595C2660023CC17 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102D63E72595C2660023CC17 /* FoodCell.xib */; };
+		102D63EB2595C8A30023CC17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D63EA2595C8A30023CC17 /* Constants.swift */; };
+		102D63EE2595FB8A0023CC17 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D63ED2595FB8A0023CC17 /* CartButton.swift */; };
+		102D63F02595FB970023CC17 /* CartButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102D63EF2595FB970023CC17 /* CartButton.xib */; };
+		102D63F32596237B0023CC17 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D63F22596237B0023CC17 /* CartViewController.swift */; };
+		10AB531D2593302B0013AFB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB531C2593302B0013AFB9 /* AppDelegate.swift */; };
+		10AB531F2593302B0013AFB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB531E2593302B0013AFB9 /* SceneDelegate.swift */; };
+		10AB53212593302B0013AFB9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB53202593302B0013AFB9 /* PageViewController.swift */; };
+		10AB53242593302B0013AFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB53222593302B0013AFB9 /* Main.storyboard */; };
+		10AB5326259330310013AFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB5325259330310013AFB9 /* Assets.xcassets */; };
+		10AB5329259330310013AFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AB5327259330310013AFB9 /* LaunchScreen.storyboard */; };
+		10AB5334259330310013AFB9 /* DinDinnChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB5333259330310013AFB9 /* DinDinnChallengeTests.swift */; };
+		10AB533F259330310013AFB9 /* DinDinnChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB533E259330310013AFB9 /* DinDinnChallengeUITests.swift */; };
+		10AB534F259330DE0013AFB9 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB534E259330DE0013AFB9 /* Food.swift */; };
+		10AB5352259336930013AFB9 /* PizzaList.json in Resources */ = {isa = PBXBuildFile; fileRef = 10AB5351259336930013AFB9 /* PizzaList.json */; };
+		10AB535525933F880013AFB9 /* DisplayFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB535425933F880013AFB9 /* DisplayFood.swift */; };
+		10AB5358259342B10013AFB9 /* FoodListGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB5357259342B10013AFB9 /* FoodListGateway.swift */; };
+		10C9F76E259480040074D36C /* SushiList.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C9F76D259480040074D36C /* SushiList.json */; };
+		10C9F7722594B9A20074D36C /* FoodHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9F7712594B9A20074D36C /* FoodHeaderView.swift */; };
+		10C9F7742594B9AC0074D36C /* FoodHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C9F7732594B9AC0074D36C /* FoodHeaderView.xib */; };
+		10E428B225947D0F0015BFF5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E428B125947D0F0015BFF5 /* UIDevice.swift */; };
+		10E428B425947EAA0015BFF5 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E428B325947EAA0015BFF5 /* AlertController.swift */; };
+		10E48C5F2599F7D000D16171 /* DisplayFoodUsecaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E48C5E2599F7D000D16171 /* DisplayFoodUsecaseTest.swift */; };
+		F1632A237CBFBB23682426EE /* Pods_DinDinnChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F6FE18967B79E2FC3FC7 /* Pods_DinDinnChallengeTests.framework */; };
+		F46FA2487FA1A5922E74B0A8 /* Pods_DinDinnChallenge_DinDinnChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C9972AC98563142409A54B /* Pods_DinDinnChallenge_DinDinnChallengeUITests.framework */; };
+		FDF574C2415FE1313B3B4E9B /* Pods_DinDinnChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AAB68A7988FE0A696C8164 /* Pods_DinDinnChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AB5330259330310013AFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB53112593302B0013AFB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB53182593302B0013AFB9;
+			remoteInfo = DinDinnChallenge;
+		};
+		10AB533B259330310013AFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AB53112593302B0013AFB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AB53182593302B0013AFB9;
+			remoteInfo = DinDinnChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AAB68A7988FE0A696C8164 /* Pods_DinDinnChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinDinnChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10131CC9259764F300668251 /* CartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPresenter.swift; sourceTree = "<group>"; };
+		10131CCB2597651800668251 /* CartConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartConfigurator.swift; sourceTree = "<group>"; };
+		10131CCD2597652900668251 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		10131CD02597683200668251 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		10131CD12597683200668251 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
+		10131CD4259773EB00668251 /* CartCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCellViewModel.swift; sourceTree = "<group>"; };
+		10246EBB25934A0E003B7F57 /* FoodListLocalGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListLocalGateway.swift; sourceTree = "<group>"; };
+		10246EBF259363D6003B7F57 /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		10246EC12593651C003B7F57 /* FoodListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListPresenter.swift; sourceTree = "<group>"; };
+		10246EC325936554003B7F57 /* FoodListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListConfigurator.swift; sourceTree = "<group>"; };
+		10246EC525938908003B7F57 /* FoodListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListRouter.swift; sourceTree = "<group>"; };
+		10246EC825938A05003B7F57 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		10246ECD25939142003B7F57 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		1028063A25945CD300FB7287 /* FoodCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCellViewModel.swift; sourceTree = "<group>"; };
+		1028063C25946AC000FB7287 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		102D63E72595C2660023CC17 /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		102D63EA2595C8A30023CC17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		102D63ED2595FB8A0023CC17 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		102D63EF2595FB970023CC17 /* CartButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartButton.xib; sourceTree = "<group>"; };
+		102D63F22596237B0023CC17 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		10AB53192593302B0013AFB9 /* DinDinn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinDinn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB531C2593302B0013AFB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10AB531E2593302B0013AFB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10AB53202593302B0013AFB9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		10AB53232593302B0013AFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10AB5325259330310013AFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10AB5328259330310013AFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10AB532A259330310013AFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB532F259330310013AFB9 /* DinDinnChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinDinnChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB5333259330310013AFB9 /* DinDinnChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinDinnChallengeTests.swift; sourceTree = "<group>"; };
+		10AB5335259330310013AFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB533A259330310013AFB9 /* DinDinnChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinDinnChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB533E259330310013AFB9 /* DinDinnChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinDinnChallengeUITests.swift; sourceTree = "<group>"; };
+		10AB5340259330310013AFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AB534E259330DE0013AFB9 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		10AB5351259336930013AFB9 /* PizzaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PizzaList.json; sourceTree = "<group>"; };
+		10AB535425933F880013AFB9 /* DisplayFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFood.swift; sourceTree = "<group>"; };
+		10AB5357259342B10013AFB9 /* FoodListGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListGateway.swift; sourceTree = "<group>"; };
+		10C9F76D259480040074D36C /* SushiList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SushiList.json; sourceTree = "<group>"; };
+		10C9F7712594B9A20074D36C /* FoodHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodHeaderView.swift; sourceTree = "<group>"; };
+		10C9F7732594B9AC0074D36C /* FoodHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodHeaderView.xib; sourceTree = "<group>"; };
+		10E428B125947D0F0015BFF5 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		10E428B325947EAA0015BFF5 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		10E48C5E2599F7D000D16171 /* DisplayFoodUsecaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFoodUsecaseTest.swift; sourceTree = "<group>"; };
+		33B7725B7B3DC759114B26F0 /* Pods-DinDinnChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallenge.release.xcconfig"; path = "Target Support Files/Pods-DinDinnChallenge/Pods-DinDinnChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		41C1D54190AB95A448B56D23 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallenge-DinDinnChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-DinDinnChallenge-DinDinnChallengeUITests/Pods-DinDinnChallenge-DinDinnChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5295B095B87E4AE328A8B1A5 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallenge-DinDinnChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-DinDinnChallenge-DinDinnChallengeUITests/Pods-DinDinnChallenge-DinDinnChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56C9972AC98563142409A54B /* Pods_DinDinnChallenge_DinDinnChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinDinnChallenge_DinDinnChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579535BA1ACAC6C7CE98D0CE /* Pods-DinDinnChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallenge.debug.xcconfig"; path = "Target Support Files/Pods-DinDinnChallenge/Pods-DinDinnChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		798381DB68FA4E6FAB4D687E /* Pods-DinDinnChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-DinDinnChallengeTests/Pods-DinDinnChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8500F6FE18967B79E2FC3FC7 /* Pods_DinDinnChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinDinnChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FAC259CD5867D71ABA13AA /* Pods-DinDinnChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinDinnChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-DinDinnChallengeTests/Pods-DinDinnChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AB53162593302B0013AFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF574C2415FE1313B3B4E9B /* Pods_DinDinnChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB532C259330310013AFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1632A237CBFBB23682426EE /* Pods_DinDinnChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB5337259330310013AFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46FA2487FA1A5922E74B0A8 /* Pods_DinDinnChallenge_DinDinnChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10131CCF2597680C00668251 /* CartCell */ = {
+			isa = PBXGroup;
+			children = (
+				10131CD02597683200668251 /* CartCell.swift */,
+				10131CD12597683200668251 /* CartCell.xib */,
+				10131CD4259773EB00668251 /* CartCellViewModel.swift */,
+			);
+			path = CartCell;
+			sourceTree = "<group>";
+		};
+		10246EB9259349BB003B7F57 /* Entity Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				10246EBA259349F6003B7F57 /* Local */,
+			);
+			path = "Entity Gateways";
+			sourceTree = "<group>";
+		};
+		10246EBA259349F6003B7F57 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				10246EBB25934A0E003B7F57 /* FoodListLocalGateway.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		10246EBD25936359003B7F57 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				10C9F76F259486140074D36C /* PageViewController */,
+				10246EBE25936362003B7F57 /* FoodListViewController */,
+				102D63F1259623590023CC17 /* CartViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		10246EBE25936362003B7F57 /* FoodListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10246EBF259363D6003B7F57 /* FoodListViewController.swift */,
+				10246EC12593651C003B7F57 /* FoodListPresenter.swift */,
+				10246EC325936554003B7F57 /* FoodListConfigurator.swift */,
+				10246EC525938908003B7F57 /* FoodListRouter.swift */,
+				10246EC7259389B5003B7F57 /* FoodCell */,
+				102D63EC2595FB5A0023CC17 /* CartButton */,
+				10C9F7702594B9870074D36C /* HeaderView */,
+			);
+			path = FoodListViewController;
+			sourceTree = "<group>";
+		};
+		10246EC7259389B5003B7F57 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				10246EC825938A05003B7F57 /* FoodCell.swift */,
+				102D63E72595C2660023CC17 /* FoodCell.xib */,
+				1028063A25945CD300FB7287 /* FoodCellViewModel.swift */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		10246ECC2593910E003B7F57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10246ECD25939142003B7F57 /* NSObject.swift */,
+				1028063C25946AC000FB7287 /* UIView.swift */,
+				10E428B125947D0F0015BFF5 /* UIDevice.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		102D63EC2595FB5A0023CC17 /* CartButton */ = {
+			isa = PBXGroup;
+			children = (
+				102D63ED2595FB8A0023CC17 /* CartButton.swift */,
+				102D63EF2595FB970023CC17 /* CartButton.xib */,
+			);
+			path = CartButton;
+			sourceTree = "<group>";
+		};
+		102D63F1259623590023CC17 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				102D63F22596237B0023CC17 /* CartViewController.swift */,
+				10131CC9259764F300668251 /* CartPresenter.swift */,
+				10131CCB2597651800668251 /* CartConfigurator.swift */,
+				10131CCF2597680C00668251 /* CartCell */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		10AB53102593302B0013AFB9 = {
+			isa = PBXGroup;
+			children = (
+				10AB531B2593302B0013AFB9 /* DinDinnChallenge */,
+				10AB5332259330310013AFB9 /* DinDinnChallengeTests */,
+				10AB533D259330310013AFB9 /* DinDinnChallengeUITests */,
+				10AB531A2593302B0013AFB9 /* Products */,
+				B36F9531602200F181A17AD0 /* Pods */,
+				B8B15F4E2D773B74D3C91F9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10AB531A2593302B0013AFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AB53192593302B0013AFB9 /* DinDinn.app */,
+				10AB532F259330310013AFB9 /* DinDinnChallengeTests.xctest */,
+				10AB533A259330310013AFB9 /* DinDinnChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AB531B2593302B0013AFB9 /* DinDinnChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				10AB531C2593302B0013AFB9 /* AppDelegate.swift */,
+				10AB531E2593302B0013AFB9 /* SceneDelegate.swift */,
+				10AB53222593302B0013AFB9 /* Main.storyboard */,
+				10AB534C259330A90013AFB9 /* Core */,
+				10246EB9259349BB003B7F57 /* Entity Gateways */,
+				10246EBD25936359003B7F57 /* Scenes */,
+				10E428B525947EB80015BFF5 /* Utility */,
+				10246ECC2593910E003B7F57 /* Extensions */,
+				10AB5325259330310013AFB9 /* Assets.xcassets */,
+				10AB5327259330310013AFB9 /* LaunchScreen.storyboard */,
+				10AB532A259330310013AFB9 /* Info.plist */,
+				102D63EA2595C8A30023CC17 /* Constants.swift */,
+				10AB5350259335550013AFB9 /* Fixtures */,
+			);
+			path = DinDinnChallenge;
+			sourceTree = "<group>";
+		};
+		10AB5332259330310013AFB9 /* DinDinnChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB5333259330310013AFB9 /* DinDinnChallengeTests.swift */,
+				10E48C5E2599F7D000D16171 /* DisplayFoodUsecaseTest.swift */,
+				10AB5335259330310013AFB9 /* Info.plist */,
+			);
+			path = DinDinnChallengeTests;
+			sourceTree = "<group>";
+		};
+		10AB533D259330310013AFB9 /* DinDinnChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10AB533E259330310013AFB9 /* DinDinnChallengeUITests.swift */,
+				10AB5340259330310013AFB9 /* Info.plist */,
+			);
+			path = DinDinnChallengeUITests;
+			sourceTree = "<group>";
+		};
+		10AB534C259330A90013AFB9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				10AB5356259342910013AFB9 /* Gateway */,
+				10AB535325933E590013AFB9 /* Usecase */,
+				10AB534D259330B50013AFB9 /* Entity */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		10AB534D259330B50013AFB9 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				10AB534E259330DE0013AFB9 /* Food.swift */,
+				10131CCD2597652900668251 /* Cart.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		10AB5350259335550013AFB9 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				10AB5351259336930013AFB9 /* PizzaList.json */,
+				10C9F76D259480040074D36C /* SushiList.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		10AB535325933E590013AFB9 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				10AB535425933F880013AFB9 /* DisplayFood.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		10AB5356259342910013AFB9 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				10AB5357259342B10013AFB9 /* FoodListGateway.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		10C9F76F259486140074D36C /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10AB53202593302B0013AFB9 /* PageViewController.swift */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		10C9F7702594B9870074D36C /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				10C9F7712594B9A20074D36C /* FoodHeaderView.swift */,
+				10C9F7732594B9AC0074D36C /* FoodHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		10E428B525947EB80015BFF5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				10E428B325947EAA0015BFF5 /* AlertController.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B36F9531602200F181A17AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				579535BA1ACAC6C7CE98D0CE /* Pods-DinDinnChallenge.debug.xcconfig */,
+				33B7725B7B3DC759114B26F0 /* Pods-DinDinnChallenge.release.xcconfig */,
+				41C1D54190AB95A448B56D23 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.debug.xcconfig */,
+				5295B095B87E4AE328A8B1A5 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.release.xcconfig */,
+				A9FAC259CD5867D71ABA13AA /* Pods-DinDinnChallengeTests.debug.xcconfig */,
+				798381DB68FA4E6FAB4D687E /* Pods-DinDinnChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8B15F4E2D773B74D3C91F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AAB68A7988FE0A696C8164 /* Pods_DinDinnChallenge.framework */,
+				56C9972AC98563142409A54B /* Pods_DinDinnChallenge_DinDinnChallengeUITests.framework */,
+				8500F6FE18967B79E2FC3FC7 /* Pods_DinDinnChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AB53182593302B0013AFB9 /* DinDinnChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB5343259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallenge" */;
+			buildPhases = (
+				9C360B7C6EC8BA8C96CFA103 /* [CP] Check Pods Manifest.lock */,
+				10AB53152593302B0013AFB9 /* Sources */,
+				10AB53162593302B0013AFB9 /* Frameworks */,
+				10AB53172593302B0013AFB9 /* Resources */,
+				88DE777E30F7BBE9A73649BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinDinnChallenge;
+			productName = DinDinnChallenge;
+			productReference = 10AB53192593302B0013AFB9 /* DinDinn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AB532E259330310013AFB9 /* DinDinnChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB5346259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallengeTests" */;
+			buildPhases = (
+				6D139870F83667D1B85F986A /* [CP] Check Pods Manifest.lock */,
+				10AB532B259330310013AFB9 /* Sources */,
+				10AB532C259330310013AFB9 /* Frameworks */,
+				10AB532D259330310013AFB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB5331259330310013AFB9 /* PBXTargetDependency */,
+			);
+			name = DinDinnChallengeTests;
+			productName = DinDinnChallengeTests;
+			productReference = 10AB532F259330310013AFB9 /* DinDinnChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10AB5339259330310013AFB9 /* DinDinnChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AB5349259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallengeUITests" */;
+			buildPhases = (
+				68E8FEFC0E917A1142641721 /* [CP] Check Pods Manifest.lock */,
+				10AB5336259330310013AFB9 /* Sources */,
+				10AB5337259330310013AFB9 /* Frameworks */,
+				10AB5338259330310013AFB9 /* Resources */,
+				339643FC095584F4736290F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AB533C259330310013AFB9 /* PBXTargetDependency */,
+			);
+			name = DinDinnChallengeUITests;
+			productName = DinDinnChallengeUITests;
+			productReference = 10AB533A259330310013AFB9 /* DinDinnChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AB53112593302B0013AFB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Saad Abdullah";
+				TargetAttributes = {
+					10AB53182593302B0013AFB9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					10AB532E259330310013AFB9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 10AB53182593302B0013AFB9;
+					};
+					10AB5339259330310013AFB9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 10AB53182593302B0013AFB9;
+					};
+				};
+			};
+			buildConfigurationList = 10AB53142593302B0013AFB9 /* Build configuration list for PBXProject "DinDinnChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AB53102593302B0013AFB9;
+			productRefGroup = 10AB531A2593302B0013AFB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AB53182593302B0013AFB9 /* DinDinnChallenge */,
+				10AB532E259330310013AFB9 /* DinDinnChallengeTests */,
+				10AB5339259330310013AFB9 /* DinDinnChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AB53172593302B0013AFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB5352259336930013AFB9 /* PizzaList.json in Resources */,
+				10AB5329259330310013AFB9 /* LaunchScreen.storyboard in Resources */,
+				10AB5326259330310013AFB9 /* Assets.xcassets in Resources */,
+				10131CD32597683200668251 /* CartCell.xib in Resources */,
+				10C9F76E259480040074D36C /* SushiList.json in Resources */,
+				10AB53242593302B0013AFB9 /* Main.storyboard in Resources */,
+				102D63F02595FB970023CC17 /* CartButton.xib in Resources */,
+				102D63E92595C2660023CC17 /* FoodCell.xib in Resources */,
+				10C9F7742594B9AC0074D36C /* FoodHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB532D259330310013AFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB5338259330310013AFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		339643FC095584F4736290F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge-DinDinnChallengeUITests/Pods-DinDinnChallenge-DinDinnChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge-DinDinnChallengeUITests/Pods-DinDinnChallenge-DinDinnChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge-DinDinnChallengeUITests/Pods-DinDinnChallenge-DinDinnChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E8FEFC0E917A1142641721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DinDinnChallenge-DinDinnChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D139870F83667D1B85F986A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DinDinnChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DE777E30F7BBE9A73649BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge/Pods-DinDinnChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge/Pods-DinDinnChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DinDinnChallenge/Pods-DinDinnChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C360B7C6EC8BA8C96CFA103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DinDinnChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AB53152593302B0013AFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB53212593302B0013AFB9 /* PageViewController.swift in Sources */,
+				102D63EB2595C8A30023CC17 /* Constants.swift in Sources */,
+				10C9F7722594B9A20074D36C /* FoodHeaderView.swift in Sources */,
+				10131CCC2597651800668251 /* CartConfigurator.swift in Sources */,
+				10246EBC25934A0E003B7F57 /* FoodListLocalGateway.swift in Sources */,
+				10246EC0259363D6003B7F57 /* FoodListViewController.swift in Sources */,
+				10131CD22597683200668251 /* CartCell.swift in Sources */,
+				10246EC625938908003B7F57 /* FoodListRouter.swift in Sources */,
+				10131CCE2597652900668251 /* Cart.swift in Sources */,
+				10AB534F259330DE0013AFB9 /* Food.swift in Sources */,
+				10246EC925938A05003B7F57 /* FoodCell.swift in Sources */,
+				10131CCA259764F300668251 /* CartPresenter.swift in Sources */,
+				10AB531D2593302B0013AFB9 /* AppDelegate.swift in Sources */,
+				102D63EE2595FB8A0023CC17 /* CartButton.swift in Sources */,
+				10E428B225947D0F0015BFF5 /* UIDevice.swift in Sources */,
+				10E428B425947EAA0015BFF5 /* AlertController.swift in Sources */,
+				10AB535525933F880013AFB9 /* DisplayFood.swift in Sources */,
+				10246ECE25939142003B7F57 /* NSObject.swift in Sources */,
+				1028063D25946AC000FB7287 /* UIView.swift in Sources */,
+				10AB5358259342B10013AFB9 /* FoodListGateway.swift in Sources */,
+				10131CD5259773EB00668251 /* CartCellViewModel.swift in Sources */,
+				102D63F32596237B0023CC17 /* CartViewController.swift in Sources */,
+				1028063B25945CD300FB7287 /* FoodCellViewModel.swift in Sources */,
+				10AB531F2593302B0013AFB9 /* SceneDelegate.swift in Sources */,
+				10246EC425936554003B7F57 /* FoodListConfigurator.swift in Sources */,
+				10246EC22593651C003B7F57 /* FoodListPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB532B259330310013AFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E48C5F2599F7D000D16171 /* DisplayFoodUsecaseTest.swift in Sources */,
+				10AB5334259330310013AFB9 /* DinDinnChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AB5336259330310013AFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AB533F259330310013AFB9 /* DinDinnChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AB5331259330310013AFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB53182593302B0013AFB9 /* DinDinnChallenge */;
+			targetProxy = 10AB5330259330310013AFB9 /* PBXContainerItemProxy */;
+		};
+		10AB533C259330310013AFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AB53182593302B0013AFB9 /* DinDinnChallenge */;
+			targetProxy = 10AB533B259330310013AFB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10AB53222593302B0013AFB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB53232593302B0013AFB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10AB5327259330310013AFB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AB5328259330310013AFB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AB5341259330310013AFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10AB5342259330310013AFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AB5344259330310013AFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579535BA1ACAC6C7CE98D0CE /* Pods-DinDinnChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallenge;
+				PRODUCT_NAME = DinDinn;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10AB5345259330310013AFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B7725B7B3DC759114B26F0 /* Pods-DinDinnChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallenge;
+				PRODUCT_NAME = DinDinn;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10AB5347259330310013AFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FAC259CD5867D71ABA13AA /* Pods-DinDinnChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinDinn.app/DinDinn";
+			};
+			name = Debug;
+		};
+		10AB5348259330310013AFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798381DB68FA4E6FAB4D687E /* Pods-DinDinnChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinDinn.app/DinDinn";
+			};
+			name = Release;
+		};
+		10AB534A259330310013AFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C1D54190AB95A448B56D23 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinDinnChallenge;
+			};
+			name = Debug;
+		};
+		10AB534B259330310013AFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5295B095B87E4AE328A8B1A5 /* Pods-DinDinnChallenge-DinDinnChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8FX7AUQ4;
+				INFOPLIST_FILE = DinDinnChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saadabdullah.DinDinnChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinDinnChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AB53142593302B0013AFB9 /* Build configuration list for PBXProject "DinDinnChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB5341259330310013AFB9 /* Debug */,
+				10AB5342259330310013AFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB5343259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB5344259330310013AFB9 /* Debug */,
+				10AB5345259330310013AFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB5346259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB5347259330310013AFB9 /* Debug */,
+				10AB5348259330310013AFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AB5349259330310013AFB9 /* Build configuration list for PBXNativeTarget "DinDinnChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB534A259330310013AFB9 /* Debug */,
+				10AB534B259330310013AFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AB53112593302B0013AFB9 /* Project object */;
+}
